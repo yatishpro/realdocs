@@ -1,0 +1,410 @@
+body{
+  font-family: 'Oxygen';
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.025em;
+  font-weight: lighter;
+  background-image: url(../img/property.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: repeat;
+}
+
+.btn-custom {
+  background-color:#ff6a00 !important;
+  color: white;
+  border: none;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.btn-custom:hover{
+  color: rgb(104, 66, 27);
+}
+.custom-strong{
+  font-weight: bold;
+}
+.custom-strong-clr{
+  font-weight: bold;
+  color: #ff6a00;
+}
+.custom-headings{
+  font-weight: 600;
+}
+
+.custom-link{
+  color: white;
+  text-decoration: none;
+}
+
+.custom-link:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.header-color{
+  background-color: #000;
+  background-position: center;
+  background-size: cover;
+}
+
+.intro-background{
+  background-color: rgba(255, 247, 224, 0.95);
+  color: #000;
+  border-radius: 5px;
+}  
+
+
+/* .landing-screen-section{
+ background-image: url(../img/property.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+} */
+
+#leftLookData{
+  background-color: rgba(255, 247, 224, 0.95);
+  color: #000;
+  height: 30em;
+  border-radius: 5px;
+  padding: 25px;
+  margin-right: 30px;
+}
+
+#card-body-step1{
+  position: relative;
+  top: 40%;
+}
+
+.card{
+  background-color: rgba(255, 247, 224, 0.95);
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  height: 30em;
+  margin-top: 0px;
+}
+
+
+.home-intro {
+  font-size: 16px;
+}
+
+.home-intro-text{
+  padding: .7em;
+}
+
+.home-intro ol{
+  font-size: 16px;
+}
+.modal-dialog{
+  max-width: 600px;
+}
+.modal-body{
+  height: 300px;
+  padding: 0px;
+}
+.modal-content{
+  background-color: #a8875c;
+}
+#myMapModal{
+  cursor: pointer;
+}
+
+footer {
+  background-color: #000;
+ 
+}
+.footer-text{
+  color: white;
+}
+
+a.footer-links{
+  color: white;
+  text-decoration: none;
+}
+
+.fa-facebook-f {
+  color: white;
+  padding: 10px 12px 10px 12px;
+  border: 2px solid;
+}
+
+.fa-twitter {
+  color: white;
+  padding: 10px;
+  border: 2px solid;
+}
+
+.fa-linkedin {
+  color: white;
+  padding: 10px;
+  border: 2px solid;
+}
+.fa-map-marker {
+  color: white;
+  padding: 10px 12px 10px 12px;
+  border: 2px solid;
+}
+
+.fa-play {
+  color: white;
+  padding: 10px;
+  border: 2px solid;
+}
+
+i.fa.fa-check.text-center {
+  align-items: center;
+  display: block;
+  position: absolute;
+  top: 26%;
+  left: 45%;
+  font-size: 51px;
+}
+
+@media(min-width: 250px) {
+  #leftLookData{
+    height: 90em;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .card{
+    height: 45em;
+  }
+  #card-body-step1{
+    position: relative;
+    top: 15%;
+  }
+  #enterStepDisplay .card{
+    padding-top: 130px;
+  }
+  .home-intro {
+    font-size: 14px;
+  }
+
+  .home-intro ol{
+    font-size: 14px;
+  }
+  .home-intro-text{
+    padding-top: .9em;
+  }
+}
+
+@media(max-width: 250px) {
+  #leftLookData{
+    height: 55em;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .card{
+    height: 45em;
+  }
+  #card-body-step1{
+    position: relative;
+    top: 15%;
+  }
+  #enterStepDisplay .card{
+    padding-top: 130px;
+  }
+  .home-intro {
+    font-size: 14px;
+  }
+
+  .home-intro ol{
+    font-size: 14px;
+  }
+  .home-intro-text{
+    padding-top: .9em;
+  }
+}
+@media(max-width: 350px) {
+ 
+  #leftLookData{
+    height: 53em;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .card{
+    height: 35em;
+  }
+  #card-body-step1{
+    position: relative;
+    top: 15%;
+  }
+  #enterStepDisplay .card{
+    padding-top: 130px;
+  }
+  .home-intro {
+    font-size: 13px;
+  }
+  .home-intro ol{
+    font-size: 13px;
+  }
+  .home-intro-text{
+    padding-top: .2em;
+  }
+}
+@media(min-width: 350px) {
+  #leftLookData{
+    height: 40em;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .card{
+    height: 40em;
+  }
+  #card-body-step1{
+    position: relative;
+    top: 15%;
+  }
+  #enterStepDisplay .card{
+    padding-top: 130px;
+  }
+  .home-intro {
+    font-size: 13px;
+  }
+  .home-intro ol{
+    font-size: 13px;
+  }
+  .home-intro-text{
+    padding-top: .2em;
+  }
+}
+
+@media(min-width: 576px){
+ 
+
+  #leftLookData{
+    height: 30em;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .card{
+    height: 30em;
+  }
+  #card-body-step1{
+    position: relative;
+    top: 10%;
+  }
+  #enterStepDisplay .card{
+    padding-top: 130px;
+  }
+}
+
+
+@media(max-width: 768px){
+  .real-docs{
+    margin: 0px 42% !important;
+  }
+  .quikr-homes{
+    margin: 0px 35% !important;
+  }
+  .card{
+    margin-top: 3em;
+  }
+  .intro-background{
+    background-color: #fff7e0de;
+  } 
+  #leftLookData{
+    background-color: #fff7e0de;
+  }
+  .card{
+    background-color: #fff7e0de;
+  }
+  .result-position{
+    margin-top: 60px;
+  }
+}
+
+
+@media(min-width: 768px) {
+  body {
+    height: 100vh;
+}
+  #leftLookData{
+    height: 40em;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .card{
+    height: 40em;
+  }
+  #card-body-step1{
+    position: relative;
+    top: 10%;
+  }
+  #enterStepDisplay .card{
+    padding-top: 200px;
+  }
+  .result-position{
+    margin-top: 20px;
+  }
+  .footer-text-last{
+    margin-top: 20px;
+  }
+}
+
+@media(min-width: 992px) {
+  body {
+    height: 100vh;
+}
+  #leftLookData{
+    height: 35em;
+  }
+  .card{
+    height: 35em;
+  }
+  #enterStepDisplay .card{
+    padding-top: 100px;
+  }
+  #card-body-step1{
+    position: relative;
+    top: 20%;
+  }
+  .home-intro {
+    font-size: 15px;
+  }
+  #card-body-step1{
+    position: relative;
+    top: 20%;
+  }
+  .home-intro ol{
+    font-size: 15px;
+  }
+  .home-intro-text{
+    padding-top: .5em;
+  }
+}
+
+
+@media(min-width: 1200px) {
+    body{
+   height: 100vh;
+  }  
+  .real-docs{
+    margin-left: none;
+  }
+  .quikr-homes{
+    margin-left: none;
+  }
+  #leftLookData{
+    height: 30em;
+  }
+  .card{
+    height: 30em;
+  }
+  #card-body-step1{
+    position: relative;
+    top: 18%;
+  }
+  .home-intro-text{
+    padding-top: .3em;
+  }
+}
+
+
+
+
+
+
